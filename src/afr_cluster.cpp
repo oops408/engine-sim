@@ -36,10 +36,10 @@ void AfrCluster::initialize(EngineSimApplication *app) {
     m_intakeAfrGauge->m_gauge->m_maxMinorTick = 7000;
     m_intakeAfrGauge->m_gauge->m_thetaMin = (float)constants::pi * 1.2f;
     m_intakeAfrGauge->m_gauge->m_thetaMax = -(float)constants::pi * 0.2f;
-    m_intakeAfrGauge->m_gauge->m_needleWidth = 4.0f;
-    m_intakeAfrGauge->m_gauge->m_gamma = 1.0f;
-    m_intakeAfrGauge->m_gauge->m_needleKs = 1000.0f;
-    m_intakeAfrGauge->m_gauge->m_needleKd = 20.0f;
+    m_intakeAfrGauge->m_gauge->m_needleWidth = 6.0f;
+    m_intakeAfrGauge->m_gauge->m_gamma = 2.0f;
+    m_intakeAfrGauge->m_gauge->m_needleKs = 2000.0f;
+    m_intakeAfrGauge->m_gauge->m_needleKd = 25.0f;
     m_intakeAfrGauge->m_gauge->setBandCount(0);
 
     m_exhaustAfrGauge->m_title = "EX. O2";
